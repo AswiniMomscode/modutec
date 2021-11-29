@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include modutec *.css
+recursive-include modutec *.csv
+recursive-include modutec *.html
+recursive-include modutec *.ico
+recursive-include modutec *.js
+recursive-include modutec *.json
+recursive-include modutec *.md
+recursive-include modutec *.png
+recursive-include modutec *.py
+recursive-include modutec *.svg
+recursive-include modutec *.txt
+recursive-exclude modutec *.pyc
